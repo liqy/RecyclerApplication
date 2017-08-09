@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BaseActivity">
+
+    <include layout="@layout/include_toolbar_layout" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/main_layout_linear_btn"
+            style="@style/button_style"
+            tools:text="Linear RecyclerView" />
+
+        <Button
+            android:id="@+id/main_layout_grid_btn"
+            style="@style/button_style"
+            tools:text="Grid RecyclerView" />
+
+        <Button
+            android:id="@+id/main_layout_staggered_btn"
+            style="@style/button_style"
+            tools:text="Staggered RecyclerView" />
+
+        <Button
+            android:id="@+id/main_layout_decoration_btn"
+            style="@style/button_style"
+            tools:text="Staggered RecyclerView" />
+
+        <Button
+            android:id="@+id/main_layout_animator_btn"
+            style="@style/button_style"
+            tools:text="Animator RecyclerView" />
+
+        <Button
+            android:id="@+id/main_layout_swipe_btn"
+            style="@style/button_style"
+            tools:text="Animator RecyclerView" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
